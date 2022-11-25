@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="estilo.css">
+        <title>Formulario para Aluno da Fatec</title>
+</head>
+<body>
+        <header class="relative flex justify-end items-end">
+                <img src="./logoFPP.jpg" alt="imagem-logo-fatec" class="absolute ">
+                
+        </header>
+        <form action="#" method="post">
+                <fieldset class="close-info">
+                        <legend>Dados Pessoais</legend>
+                        <label for="name">Nome: </label><br>
+                        <input type="text" placeholder="Informe o seu nome" required><br>
+                        <label for="senha"> Password</label><br>
+                        <input type="password" required placeholder="Informe uma senha"><br>
+                        <label for="telefone">Telefone</label><br>
+                        <input type="tel" placeholder="Informe um telefone de contato" required><br>
+                        <label for="CPF">CPF:</label><br>
+                        <input type="text" placeholder="Informe um CPF" required maxlength="11" minlength="11"><br>
+                        <label for="email">email</label><br>
+                        <input type="email" required placeholder="Informe um email" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$">
+                </fieldset>
+                <fieldset class="adress">
+                        <legend> Dados de Endereço</legend>
+                        <label for="end"> Endereço</label><br>
+                        <input type="text" name="adress" id="" placeholder="Infore um Endereço" required ><br>
+                        <label for="numero"> Numero da Residencia</label><br>
+                        <input type="text" placeholder="Informe o numero da residencia"><br>
+                </fieldset>
+                <fieldset class = "education">
+                        <legend>Dados Escolares</legend>
+                        <select name="Escolaridade" id="">
+                                <option value="Primario">Primario</option>
+                                <option value="Ensino medio"> Ensino medio</option>
+                                <option value="Ensino tecnico">Ensino Técnico</option>
+                                <option value="Graduaçao">Graduação</option>
+                                <option value="Mestrado">Pos-Graduaçao</option>
+                        </select><br>
+                        <label for="start">Inicio da Formaçao concluida</label><br>
+                        <input type="text" placeholder="Ano de inicio da sua formaçao"><br>
+                        <label for="finish"> ano de conclusao da formaçao</label><br>
+                        <input type="text" placeholder="Coloque o ano em que finalizou sua ultima formaçao">
+                </fieldset>
+                <fieldset class="formation">
+                        <legend>Areas de Interesse</legend>
+                        <select name="Cursos" id="">
+                                <option value="Análise e desenvolvimento de sistemas">Análise e desenvolvimento de sistemas</option>
+                                <option value="Markting">Marketing</option>
+                                <option value="Agronegocio">Agronegocio</option>
+                                <option value="Eventos">Eventos</option>
+
+                        </select>
+                </fieldset>
+        </form>
+</body>
+</html>

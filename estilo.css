@@ -1,0 +1,65 @@
+body{
+        background-image: url('backOne.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+header{
+        background-color: white;
+        border:2px solid black;
+        height: 11em;
+}
+legend{
+        font-size: 1.25em;
+}
+.close-info{
+        margin-left: auto;
+        margin-right: auto;
+        background-color: aliceblue;
+        width: 22em;
+        height: 18em;
+        border: 2px solid black;
+        border-radius: 12px;
+        text-align: center;
+}
+.adress{
+        margin-left: auto;
+        margin-right: auto;
+        background-color: aliceblue;
+        width: 22em;
+        height: 10em;
+        border: 2px solid black;
+        border-radius: 12px;
+        text-align: center;
+}
+.education{
+        margin-left: auto;
+        margin-right: auto;
+        background-color: aliceblue;
+        width: 22em;
+        height: 10em;
+        border: 2px solid black;
+        border-radius: 12px;
+        text-align: center;
+}
+.formation{
+        margin-left: auto;
+        margin-right: auto;
+        background-color: aliceblue;
+        width: 22em;
+        height: 5em;
+        border: 2px solid black;
+        border-radius: 12px;
+        text-align: center;   
+}
+input{
+        border: none;
+        border-bottom: 2px solid black;
+        background-color: aliceblue;
+        outline: none;
+}
+select{
+        border: none;
+        border-bottom: 2px solid black;
+        background-color: aliceblue;
+        outline: none      
+}
